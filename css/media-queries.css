@@ -1,0 +1,99 @@
+/* Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) { 
+    .search-button{
+        position: absolute;
+        background-color: #FF4A52;
+        right: 45px;
+        top: 0;
+        bottom: 0;
+        width: 45px;
+    }
+    .burger-menu i{
+        color: #fff;
+    }
+    .search-button i{
+        color: #fff;
+    }
+    .burger-menu{
+        position: absolute;
+        top: 0;
+        background-color: #1e1fc2;
+        bottom: 0;
+        right: 0;
+        width: 45px;
+        z-index: 100;
+    }
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .header-menu-item{
+        display:inline-block!important;
+    }
+    .burger-menu{
+        display: none!important;
+    }
+    .search-button{
+        right: 0;
+    }
+    footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+        /* padding: 30px; */
+    }
+}
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .search-button{
+        width: 100px;
+    }
+    .search{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .search-form{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+@media (min-width: 1200px) {
+    .popular-container{
+        width:1200px;
+        margin: 0 auto;
+    }
+    .newsletter-container{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .newsletter-form{
+        display: block!important;
+    }
+    .newsletter-title{
+        margin-top: 0;
+        margin-right: 10px;
+    }
+    .newsletter-btn{
+        padding: 18px 10px;
+    }
+}
+@media (max-width: 576px){
+    .header-icons{
+        flex-direction: row;
+    }
+    .burger-menu{
+        margin-left: 10px;
+        background-color: #1e1fc2;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+    .search-button{
+        background-color: #FF4A52;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+}
