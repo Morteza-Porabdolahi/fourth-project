@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <script src="scripts/app.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <header class="d-flex">
         <section class="header-logo">
@@ -29,10 +31,11 @@
         </section>
         <section class="header-icons d-flex">
             <section class="search-button d-flex"><a href="#"><i class="zmdi zmdi-search"></i></a></section>
-            <section class="burger-menu d-flex"><a type="button" href="#" onclick="showMenu()"><i class="zmdi zmdi-menu"></i></a></section>
+            <section class="burger-menu d-flex" id="burger"><a type="button" href="#" onclick="showMenu()"><i
+                        class="zmdi zmdi-menu"></i></a></section>
         </section>
     </header>
-    <main>
+    <main id="main">
         <section class="slider">
             <section class="slider-title d-flex">
                 <h3>Australia</h3>
@@ -52,7 +55,8 @@
         <section class="popular">
             <section class="row popular-heading">
                 <h3 class="popular-title">Popular Destination</h3>
-                <p class="popular-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus reprehenderit itaque nobis</p>
+                <p class="popular-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus
+                    reprehenderit itaque nobis</p>
             </section>
             <section class="row popular-container">
                 <article class="">
@@ -114,7 +118,7 @@
             </section>
         </section>
     </main>
-    <footer class="row">
+    <footer class="row" id="footer">
         <section class="left-footer">
             <img src="images/footer_logo.png" alt="" class="footer-logo">
             <ul class="footer-list">
@@ -139,4 +143,5 @@
         </section>
     </footer>
 </body>
+
 </html>
